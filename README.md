@@ -1,0 +1,2 @@
+# Lottery
+about lottery website

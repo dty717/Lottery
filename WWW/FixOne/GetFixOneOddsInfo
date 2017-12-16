@@ -1,0 +1,72 @@
+﻿[
+  {
+    "BetType": 20,
+    "BetItem": "",
+    "Commission": 0.0000,
+    "MaxLimitItemBet": 20000,
+    "MaxLimitSigleBet": 5000,
+    "MinLimitBetAmount": 1.0000,
+    "Odds": 9.93000000,
+    "IsMaster": true,
+    "Store": 0.0,
+    "BOdds": 0.0,
+    "APartialOdds": 0.0,
+    "IsSuper": false
+  },
+  {
+    "BetType": 21,
+    "BetItem": "",
+    "Commission": 0.0000,
+    "MaxLimitItemBet": 20000,
+    "MaxLimitSigleBet": 5000,
+    "MinLimitBetAmount": 1.0000,
+    "Odds": 9.93000000,
+    "IsMaster": true,
+    "Store": 0.0,
+    "BOdds": 0.0,
+    "APartialOdds": 0.0,
+    "IsSuper": false
+  },
+  {
+    "BetType": 22,
+    "BetItem": "",
+    "Commission": 0.0000,
+    "MaxLimitItemBet": 20000,
+    "MaxLimitSigleBet": 5000,
+    "MinLimitBetAmount": 1.0000,
+    "Odds": 9.93000000,
+    "IsMaster": true,
+    "Store": 0.0,
+    "BOdds": 0.0,
+    "APartialOdds": 0.0,
+    "IsSuper": false
+  },
+  {
+    "BetType": 23,
+    "BetItem": "",
+    "Commission": 0.0000,
+    "MaxLimitItemBet": 20000,
+    "MaxLimitSigleBet": 5000,
+    "MinLimitBetAmount": 1.0000,
+    "Odds": 9.93000000,
+    "IsMaster": true,
+    "Store": 0.0,
+    "BOdds": 0.0,
+    "APartialOdds": 0.0,
+    "IsSuper": false
+  },
+  {
+    "BetType": 24,
+    "BetItem": "",
+    "Commission": 0.0000,
+    "MaxLimitItemBet": 20000,
+    "MaxLimitSigleBet": 5000,
+    "MinLimitBetAmount": 1.0000,
+    "Odds": 9.93000000,
+    "IsMaster": true,
+    "Store": 0.0,
+    "BOdds": 0.0,
+    "APartialOdds": 0.0,
+    "IsSuper": false
+  }
+]

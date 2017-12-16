@@ -1,0 +1,16 @@
+[
+  {
+    "BetType": 2,
+    "BetItem": "",
+    "Commission": 0.0000,
+    "MaxLimitItemBet": 20000,
+    "MaxLimitSigleBet": 2000,
+    "MinLimitBetAmount": 1.0000,
+    "Odds": 99.30000000,
+    "IsMaster": true,
+    "Store": 0.0,
+    "BOdds": 99.3000,
+    "APartialOdds": 99.3000,
+    "IsSuper": false
+  }
+]

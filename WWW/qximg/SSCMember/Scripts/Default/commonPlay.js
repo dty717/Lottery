@@ -1,7 +1,17 @@
-﻿	function arrayInclude(arr ,item){
-		if(!arr||(arr.length==0)||(item==undefined)||arr.includes(item))
+﻿
+
+	function arrayInclude(arr ,item){
+		if(!arr||(arr.length==0)||(item==undefined))
 			return true;
-		return false
+		if(arr.includes){
+			return arr.includes(item)	
+		}else{
+			for(var i=0;i<arr.length;i++){
+				if(arr[i]==item)
+					return true;	
+			}
+			return false			
+		}
 	}
 	function getVal(m,index){
 		switch(index){

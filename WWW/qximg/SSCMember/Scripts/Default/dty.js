@@ -239,7 +239,13 @@
 		list_x1.push(i1+"x"+i2+i3+i4);
 		list_x1.push("x"+i1+i2+i3+i4);
 	}
-	
+	function arrToSet(list){
+		var set=new Set();
+		for(var i=0;i<list.length;i++){
+			set.add(list[i]);
+		}
+		return set;
+	}
 	function stringToSet1(num){
 		var arr=[]
 		for(var i=0;i<5;i++){
@@ -383,9 +389,15 @@
 		}
 		test.forEach(function(elem){
 			allsdString.delete(elem);
+			
 		});
+		
 		if((num&1)==1){
 			var list1=new Set(list_x1)
+			if(list1==undefined||list1.size!=list_x1.length){
+				list1=arrToSet(list_x1);
+			}
+			
 			allsdString.forEach(function(elem){
 				var arr=stringToSet1(elem);		
 				for(var i=0;i<arr.length;i++){
@@ -396,6 +408,9 @@
 		}
 		if((num&2)==2){
 			var list2=new Set(list_x2)
+			if(list2==undefined||list2.size!=list_x2.length){
+				list2=arrToSet(list_x2);
+			}
 			allsdString.forEach(function(elem){
 				var arr=stringToSet2(elem);		
 				for(var i=0;i<arr.length;i++){
@@ -406,6 +421,9 @@
 		}
 		if((num&4)==4){
 			var list3=new Set(list_x3)
+			if(list3==undefined||list3.size!=list_x3.length){
+				list3=arrToSet(list_x3);
+			}
 			allsdString.forEach(function(elem){
 				var arr=stringToSet3(elem);		
 				for(var i=0;i<arr.length;i++){
@@ -416,6 +434,9 @@
 		}
 		if((num&8)==8){
 			var list4=new Set(list_x4)
+			if(list4==undefined||list4.size!=list_x4.length){
+				list4=arrToSet(list_x4);
+			}
 			allsdString.forEach(function(elem){
 				var arr=stringToSet4(elem);		
 				for(var i=0;i<arr.length;i++){

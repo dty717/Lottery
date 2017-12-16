@@ -6,29 +6,8 @@ define(function (require, exports, module) {
 ///////
 
 	
-	function test1(obj){
-		if(obj.first!=obj.second)
-			return false;
-		return true;
-	}
-	function test2(obj){
-		if(obj.first!=obj.fifth)
-			return false;
-		return true;
-	}
-	function test3(obj){
-		if(obj.first!=obj.fourth)
-			return false;
-		return true;
-	}
 	
-	
-	
-	function arrayInclude(arr ,item){
-		if(!arr||(arr.length==0)||(item==undefined)||arr.includes(item))
-			return true;
-		return false
-	}
+    
 	
 	
 	
@@ -502,11 +481,10 @@ define(function (require, exports, module) {
 							rules.push(三数合大)
 						}
 					}
-					
 					pData.rule=rules
-					var tem=getResults(15,pData.set());
-					console.log(pData)
-					
+
+                    var tem=getResults(15,pData.set());
+                    
 					return showTable(tem[0],tem[1],tem[2],tem[3]);
 
 				}
@@ -616,6 +594,8 @@ define(function (require, exports, module) {
 	
 	}
 
+
+
     function testClassID7(number) {
         number = '' + number;
         if (/^\dXX\d$/i.test(number) || /^XX\d\d$/i.test(number)) {
@@ -626,7 +606,8 @@ define(function (require, exports, module) {
     var
         $$ = jQuery,
         global;
-    var __ss = {
+
+        var __ss = {
         __selectnumbertotal: 0,
         __selectnumber: [],
         __fuhao: 'X',
@@ -2981,7 +2962,6 @@ define(function (require, exports, module) {
                 d.showModal();
                 return;
             }*/
-
             this.__int();
             __ss.isInit = true;
             if (this.__alert() == false) return;
@@ -2991,15 +2971,18 @@ define(function (require, exports, module) {
             for (var i in this.__group) {
                 __ss.__group[i] = [];
             }
-		console.log(pData)
-	    var tem2=render();
+
+
+        var tem2=render();
+        
 	    var tem=getResults(15,pData.set());
-	    var callarr=[];
+        
+        var callarr=[];
 					tem[0].forEach(function(elem){
 					    if(elem[4]=="x")
 						callarr.push(elem.substring(0,4))
 					})
-	    
+                    
 	    /*
             if (this.__classid == 7) {
                 var list = [];
@@ -3405,6 +3388,7 @@ define(function (require, exports, module) {
         this.flag = ko.observable('1');
         this.thiNum = ko.observable(0);
         this.render = function () {
+            
 	    
             var content = $$('#content');
             if (content.find('td').length !== 0) {

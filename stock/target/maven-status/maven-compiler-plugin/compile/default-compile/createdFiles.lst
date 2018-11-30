@@ -1,0 +1,6 @@
+stock\web\HelloController.class
+stock\domain\Greeting.class
+stock\config\WebSocketConfig.class
+stock\domain\HelloMessage.class
+stock\web\SocketController.class
+stock\service\EchoService.class
